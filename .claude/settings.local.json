@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Users/camer/AppData/Roaming/**)",
+      "Read(//c/Users/camer/**)",
+      "Read(//c/ProgramData/chocolatey/**)",
+      "Bash(gh auth:*)"
+    ]
+  }
+}
