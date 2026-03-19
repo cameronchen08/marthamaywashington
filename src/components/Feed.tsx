@@ -10,7 +10,6 @@ import bench from '../../images/Martha_bench.jpeg'
 import marthaUW from '../../images/Martha_UW.png'
 import saywoof2 from '../../images/martha_saywoof.jpeg'
 import sw1 from '../../images/martha_sw1.jpeg'
-import marthaVideo from '../../images/LSRxUMBB.mp4'
 
 interface FeedCardData {
   bg: string
@@ -32,7 +31,7 @@ const cards: FeedCardData[] = [
   { bg: 'bg-5', emoji: '🍰', img: pumpkin, likes: '♥ 24,601 likes', caption: '10/10 muddy adventure at the pumpkin patch.' },
   { bg: 'bg-6', emoji: '🛏️', img: run, likes: '♥ 37,229 likes', caption: 'Fastest wiener in the west. Catch me if you can!' },
   { bg: 'bg-1', emoji: '🐾', img: bench, imgPosition: '10% 60%', likes: '♥ 21,445 likes', caption: 'just a girl, living her best life, one treat at a time.' },
-  { bg: 'bg-3', emoji: '🎬', emojiSize: '4rem', likes: '♥ 58,120 likes', caption: 'Director\'s cut. Oscar worthy, obviously.', video: marthaVideo, videoThumb: marthaUW },
+  { bg: 'bg-3', emoji: '🎬', emojiSize: '4rem', img: marthaUW, likes: '♥ 58,120 likes', caption: 'Director\'s cut. Oscar worthy, obviously.' },
   { bg: 'bg-2', emoji: '🐾', img: saywoof2, likes: '♥ 33,871 likes', caption: 'Looking at greatness. (It\'s me. I\'m the greatness.)' },
   { bg: 'bg-5', emoji: '🌅', img: sw1, likes: '♥ 27,654 likes', caption: 'Sweater weather and hair goals for days.' },
 ]
